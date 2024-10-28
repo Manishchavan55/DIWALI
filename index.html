@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diwali Fire Rockets Effect</title>
+    <link rel="stylesheet" href="/asset/style.css">
+   <style>
+    /* Basic Styles */
+    body, html {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        font-family: Arial, sans-serif;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Canvas full screen */
+    #canvas {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+    /* Centered Diwali message */
+    .heading {
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin: 10px 0;
+    }
+    .heading span {
+        font-size: 1.5rem;
+    }
+    
+    /* Wisher name style */
+    .wisher {
+        font-size: 1.2rem;
+        font-style: italic;
+        margin-top: 10px;
+    }
+
+    /* Responsive adjustments for mobile screens */
+    @media (max-width: 768px) {
+        .heading span{
+            font-size: 1.2rem;
+        justify-content: center;
+        left: 227px;
+        width: 427px;
+         
+        }
+        .heading  {
+            font-size: 1.2rem;
+        }
+        .wisher {
+            font-size: 1rem;
+        }
+        html, body {
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+   </style>
+</head>
+
+<body>
+    <canvas id="canvas"></canvas>
+    <h1 class="heading" style="display: flex; flex-direction: column;">🎇 Happy Diwali 🎇<br><span>Happy Diwali, my friend! May your life sparkle with health, happiness, and prosperity! 🌟🔥</span></h1>
+     
+    <p class="wisher">— Manish Chavan 🎉</p>
+    
+    <script src="/asset/script.js"></script>
+   
+</body>
+
+</html>
